@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent } from '@/components/ui/card';
-import { GitHub, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { useToast } from "@/hooks/use-toast";
 
 const ContactSection = () => {
@@ -148,7 +148,7 @@ const ContactSection = () => {
                   className="flex items-center gap-4 p-4 rounded-lg hover:bg-hope-pink/10 transition-colors"
                 >
                   <div className="bg-hope-pink rounded-full p-2 text-hope-magenta">
-                    <GitHub size={20} />
+                    <Github size={20} />
                   </div>
                   <div>
                     <h4 className="font-quicksand font-medium">GitHub</h4>

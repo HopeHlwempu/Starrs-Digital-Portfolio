@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { GitHub, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
 type Project = {
@@ -114,7 +114,7 @@ const ProjectsSection = () => {
                       size="sm" 
                       className="gap-1"
                     >
-                      <GitHub size={16} />
+                      <Github size={16} />
                       Code
                     </Button>
                   </a>
@@ -148,7 +148,7 @@ const ProjectsSection = () => {
             rel="noopener noreferrer"
           >
             <Button variant="outline" className="border-hope-pink hover:bg-hope-pink/10">
-              <GitHub className="mr-2 h-4 w-4" /> See More on GitHub
+              <Github className="mr-2 h-4 w-4" /> See More on GitHub
             </Button>
           </a>
         </div>

@@ -1,5 +1,5 @@
 
-import { GitHub, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -47,7 +47,7 @@ const HeroSection = () => {
             
             <div className="flex items-center space-x-4 justify-center lg:justify-start pt-4">
               <a href="https://github.com/HopeHlwempu" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-hope-magenta transition-colors">
-                <GitHub size={20} />
+                <Github size={20} />
               </a>
               <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-hope-magenta transition-colors">
                 <Linkedin size={20} />
