@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -14,11 +14,11 @@ const HeroSection = () => {
       <div className="section-container">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           <div className="lg:w-1/2 space-y-6 text-center lg:text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-quicksand font-bold">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold">
               Hi, I'm Hope <span className="animate-pulse-soft">👩🏽‍💻</span>
             </h1>
             
-            <h2 className="text-xl md:text-2xl text-muted-foreground font-medium">
+            <h2 className="text-xl md:text-2xl text-muted-foreground font-serif font-medium">
               Creative Software Engineer. Dreamer. Builder. Deep Thinker.
             </h2>
             
@@ -37,7 +37,7 @@ const HeroSection = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4 justify-center lg:justify-start">
-              <Button className="bg-gradient-pink hover:opacity-90 transition-opacity">
+              <Button className="bg-gradient-pink hover:opacity-90 transition-opacity transform hover:scale-105 shadow-glow">
                 View My Work
               </Button>
               <Button variant="outline" className="border-hope-pink hover:bg-hope-pink/10">
@@ -55,6 +55,9 @@ const HeroSection = () => {
               <a href="mailto:hopewlwempu@gmail.com" className="text-muted-foreground hover:text-hope-magenta transition-colors">
                 <Mail size={20} />
               </a>
+              <a href="https://www.instagram.com/starr.hopey/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-hope-magenta transition-colors">
+                <Instagram size={20} />
+              </a>
             </div>
           </div>
           
@@ -70,6 +73,21 @@ const HeroSection = () => {
               {/* Decorative circle */}
               <div className="absolute -z-10 -bottom-4 -right-4 w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-pink opacity-20"></div>
             </div>
+          </div>
+        </div>
+        
+        {/* Gallery Section */}
+        <div className="mt-16 pt-8 border-t border-hope-pink/20">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {[1, 2, 3].map((item) => (
+              <div key={item} className="aspect-square rounded-lg overflow-hidden shadow-soft hover:shadow-glow transition-all duration-300 hover:-translate-y-1">
+                <img 
+                  src="/public/placeholder.svg"
+                  alt={`Gallery image ${item}`} 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>

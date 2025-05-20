@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent } from '@/components/ui/card';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Instagram } from 'lucide-react';
 import { useToast } from "@/hooks/use-toast";
 
 const ContactSection = () => {
@@ -45,7 +45,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="py-20 bg-gradient-to-b from-hope-softGray/30 to-white">
       <div className="section-container">
-        <h2 className="section-title">Let's Connect <span className="ml-2">💌</span></h2>
+        <h2 className="section-title font-serif">Let's Connect <span className="ml-2">💌</span></h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Let's build something beautiful together! Whether you have a project in mind,
           job opportunity, or just want to say hi, I'd love to hear from you.
@@ -54,7 +54,7 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <Card className="border-none shadow-soft p-6">
             <CardContent className="p-0 space-y-6">
-              <h3 className="text-2xl font-quicksand font-bold text-hope-magenta">Get In Touch</h3>
+              <h3 className="text-2xl font-serif font-bold text-hope-magenta">Get In Touch</h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="space-y-4">
@@ -119,7 +119,7 @@ const ContactSection = () => {
           <div className="flex flex-col justify-center">
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-quicksand font-bold text-hope-magenta mb-4">
+                <h3 className="text-2xl font-serif font-bold text-hope-magenta mb-4">
                   Connect With Me
                 </h3>
                 <p className="text-muted-foreground">
@@ -136,7 +136,7 @@ const ContactSection = () => {
                     <Mail size={20} />
                   </div>
                   <div>
-                    <h4 className="font-quicksand font-medium">Email</h4>
+                    <h4 className="font-serif font-medium">Email</h4>
                     <p className="text-sm text-muted-foreground">hopewlwempu@gmail.com</p>
                   </div>
                 </a>
@@ -151,7 +151,7 @@ const ContactSection = () => {
                     <Github size={20} />
                   </div>
                   <div>
-                    <h4 className="font-quicksand font-medium">GitHub</h4>
+                    <h4 className="font-serif font-medium">GitHub</h4>
                     <p className="text-sm text-muted-foreground">github.com/HopeHlwempu</p>
                   </div>
                 </a>
@@ -166,8 +166,23 @@ const ContactSection = () => {
                     <Linkedin size={20} />
                   </div>
                   <div>
-                    <h4 className="font-quicksand font-medium">LinkedIn</h4>
+                    <h4 className="font-serif font-medium">LinkedIn</h4>
                     <p className="text-sm text-muted-foreground">linkedin.com/in/hope-hlwempu</p>
+                  </div>
+                </a>
+                
+                <a 
+                  href="https://www.instagram.com/starr.hopey/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 rounded-lg hover:bg-hope-pink/10 transition-colors"
+                >
+                  <div className="bg-hope-pink rounded-full p-2 text-hope-magenta">
+                    <Instagram size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-serif font-medium">Instagram</h4>
+                    <p className="text-sm text-muted-foreground">@starr.hopey</p>
                   </div>
                 </a>
               </div>

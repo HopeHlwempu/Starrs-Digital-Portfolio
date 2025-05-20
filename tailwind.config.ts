@@ -151,7 +151,8 @@ export default {
 			},
 			fontFamily: {
 				quicksand: ['Quicksand', 'sans-serif'],
-				inter: ['Inter', 'sans-serif']
+				inter: ['Inter', 'sans-serif'],
+				serif: ['Playfair Display', 'serif']
 			},
 			backgroundImage: {
 				'gradient-pink': 'linear-gradient(135deg, #FFDEE2 0%, #E9D8FD 100%)',

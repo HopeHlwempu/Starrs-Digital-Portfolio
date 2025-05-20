@@ -50,7 +50,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="bg-hope-softGray py-20">
       <div className="section-container">
-        <h2 className="section-title">My Projects <span className="ml-2">✨</span></h2>
+        <h2 className="section-title font-serif">My Projects <span className="ml-2">✨</span></h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Here are some of my favorite projects that showcase my skills and passion for creating
           beautiful, functional applications.
@@ -77,7 +77,7 @@ const ProjectsSection = () => {
               </div>
               
               <CardHeader>
-                <CardTitle className="font-quicksand text-xl">{project.title}</CardTitle>
+                <CardTitle className="font-serif text-xl">{project.title}</CardTitle>
                 <div className="flex flex-wrap gap-2 mt-2">
                   {project.technologies.slice(0, 3).map((tech) => (
                     <Badge 
