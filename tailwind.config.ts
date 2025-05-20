@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,17 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom colors for Hope's portfolio
+				hope: {
+					pink: '#FFDEE2',
+					magenta: '#D946EF',
+					lavender: '#E9D8FD',
+					softGray: '#F1F0FB',
+					lightGray: '#C8C8C9',
+					offWhite: '#FAFAFA',
+					cream: '#FFF5E1',
+					gold: '#FFD700',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +96,70 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'sparkle': {
+					'0%': {
+						transform: 'scale(0)',
+						opacity: '0'
+					},
+					'50%': {
+						transform: 'scale(1)',
+						opacity: '1'
+					},
+					'100%': {
+						transform: 'scale(0)',
+						opacity: '0'
+					}
+				},
+				'float': {
+					'0%': {
+						transform: 'translateY(0px)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					},
+					'100%': {
+						transform: 'translateY(0px)'
+					}
+				},
+				'pulse-soft': {
+					'0%, 100%': {
+						opacity: '1'
+					},
+					'50%': {
+						opacity: '0.8'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out forwards',
+				'sparkle': 'sparkle 2s ease-in-out infinite',
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-soft': 'pulse-soft 3s ease-in-out infinite'
+			},
+			fontFamily: {
+				quicksand: ['Quicksand', 'sans-serif'],
+				inter: ['Inter', 'sans-serif']
+			},
+			backgroundImage: {
+				'gradient-pink': 'linear-gradient(135deg, #FFDEE2 0%, #E9D8FD 100%)',
+				'gradient-pastel': 'linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%)',
+			},
+			boxShadow: {
+				'soft': '0 4px 20px -2px rgba(217, 70, 239, 0.1)',
+				'glow': '0 0 15px rgba(217, 70, 239, 0.3)'
 			}
 		}
 	},
