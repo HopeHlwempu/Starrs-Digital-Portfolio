@@ -17,16 +17,13 @@ const frontendTech: TechItem[] = [
   { name: "CSS", icon: "🎨", color: "#1572B6" },
   { name: "Tailwind CSS", icon: "🌊", color: "#38B2AC" },
   { name: "SASS", icon: "💅", color: "#CC6699" },
-  { name: "Redux", icon: "🔄", color: "#764ABC" }
 ];
 
 const backendTech: TechItem[] = [
   { name: "Node.js", icon: "🟢", color: "#339933" },
   { name: "Express", icon: "🚂", color: "#000000" },
-  { name: "MongoDB", icon: "🍃", color: "#47A248" },
   { name: "PostgreSQL", icon: "🐘", color: "#336791" },
   { name: "Firebase", icon: "🔥", color: "#FFCA28" },
-  { name: "GraphQL", icon: "◼️", color: "#E10098" },
   { name: "REST API", icon: "🔗", color: "#FF6C37" }
 ];
 
@@ -35,11 +32,10 @@ const toolsTech: TechItem[] = [
   { name: "GitHub", icon: "🐙", color: "#181717" },
   { name: "VS Code", icon: "📝", color: "#007ACC" },
   { name: "Figma", icon: "🖌️", color: "#F24E1E" },
-  { name: "Jest", icon: "🃏", color: "#C21325" },
+  { name: "Framer", icon: "🃏", color: "#C21325" },
   { name: "Docker", icon: "🐳", color: "#2496ED" },
   { name: "AWS", icon: "☁️", color: "#232F3E" },
   { name: "Vercel", icon: "▲", color: "#000000" },
-  { name: "NPM", icon: "📦", color: "#CB3837" }
 ];
 
 const TechGrid = ({ items }: { items: TechItem[] }) => (

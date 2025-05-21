@@ -129,7 +129,7 @@ const ContactSection = () => {
               
               <div className="space-y-4">
                 <a 
-                  href="mailto:hopewlwempu@gmail.com"
+                  href="mailto:starrvansittert@gmail.com"
                   className="flex items-center gap-4 p-4 rounded-lg hover:bg-hope-pink/10 transition-colors"
                 >
                   <div className="bg-hope-pink rounded-full p-2 text-hope-magenta">
@@ -137,7 +137,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-serif font-medium">Email</h4>
-                    <p className="text-sm text-muted-foreground">hopewlwempu@gmail.com</p>
+                    <p className="text-sm text-muted-foreground">starrvansittert@gmail.com</p>
                   </div>
                 </a>
                 
@@ -157,7 +157,7 @@ const ContactSection = () => {
                 </a>
                 
                 <a 
-                  href="https://linkedin.com/in/" 
+                  href="https://www.linkedin.com/in/hope-hlwempu-65a2a1338/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-lg hover:bg-hope-pink/10 transition-colors"

@@ -20,13 +20,11 @@ const HeroSection = () => {
             </h1>
             
             <h2 className="text-xl md:text-2xl text-muted-foreground font-serif font-medium">
-              Creative Software Engineer. Dreamer. Builder. Deep Thinker.
+              Creative Software Engineer. Dreamer. Builder. Problem Solver.
             </h2>
             
             <p className="text-lg text-muted-foreground/90">
-              I craft beautiful user experiences and robust code that makes a difference. 
-              Passionate about combining technical excellence with creative expression to build 
-              solutions that matter.
+              I design meaningful digital experiences and write clean, resilient code that solves real problems. I’m passionate about blending creativity and technical skill to serve others because tech is just a tool, love is the mission.
             </p>
             
             <div className="flex items-center space-x-6 justify-center lg:justify-start">
@@ -50,10 +48,10 @@ const HeroSection = () => {
               <a href="https://github.com/HopeHlwempu" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-hope-magenta transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-hope-magenta transition-colors">
+              <a href="https://www.linkedin.com/in/hope-hlwempu-65a2a1338/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-hope-magenta transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:hopewlwempu@gmail.com" className="text-muted-foreground hover:text-hope-magenta transition-colors">
+              <a href="mailto:starrvansittert@gmail.com" className="text-muted-foreground hover:text-hope-magenta transition-colors">
                 <Mail size={20} />
               </a>
               <a href="https://www.instagram.com/starr.hopey/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-hope-magenta transition-colors">
@@ -66,11 +64,11 @@ const HeroSection = () => {
         {/* Gallery Section */}
         <div className="mt-16 pt-8 border-t border-hope-pink/20">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            {[1, 2, 3].map((item) => (
+            {['hope', 'Thato', 'codinggg'].map((item) => (
               <div key={item} className="aspect-square rounded-lg overflow-hidden shadow-soft hover:shadow-glow transition-all duration-300 hover:-translate-y-1">
                 <AspectRatio ratio={1/1} className="w-full h-full">
                   <img 
-                    src={`/placeholder-${item}.jpg`}
+                    src={`${item}.jpeg`}
                     alt={`Gallery image ${item}`} 
                     className="w-full h-full object-cover"
                   />

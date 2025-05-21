@@ -14,7 +14,7 @@ const Footer = () => {
           
           <div className="flex items-center">
             <p className="text-center font-quicksand text-muted-foreground text-sm italic">
-              "You love so much, you love when love hurts" — Kendrick Lamar
+              "I can do all things through Christ who strengthens me" — Philipians 4:13
             </p>
           </div>
           

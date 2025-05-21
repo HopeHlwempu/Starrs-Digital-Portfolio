@@ -42,39 +42,39 @@ const timelineItems: TimelineItem[] = [
 const passions: PassionItem[] = [
   {
     title: "Faith",
-    description: "My faith in God guides my purpose and gives meaning to my work.",
+    description: "My faith guides my purpose and gives meaning to my work.",
     icon: <span className="text-2xl">✝️</span>,
-    image: "/public/placeholder.svg",
+    image: "/public/Bible.jpeg",
   },
   {
     title: "Family",
     description: "My family provides the support system that allows me to pursue my dreams.",
     icon: <Heart className="h-6 w-6 text-hope-magenta" />,
-    image: "/public/placeholder.svg",
+    image: "/public/Thato.jpeg",
   },
   {
     title: "Coding",
     description: "I love creating solutions that solve real problems through code.",
     icon: <Code className="h-6 w-6 text-hope-magenta" />,
-    image: "/public/placeholder.svg",
+    image: "/public/code.jpeg",
   },
   {
     title: "Music",
     description: "Playing piano and composing music is how I express myself creatively.",
     icon: <Music className="h-6 w-6 text-hope-magenta" />,
-    image: "/public/placeholder.svg",
+    image: "/public/music.jpeg",
   },
   {
     title: "Creativity",
     description: "I enjoy exploring different forms of creative expression through art and design.",
     icon: <Palette className="h-6 w-6 text-hope-magenta" />,
-    image: "/public/placeholder.svg",
+    image: "/public/creative.jpeg",
   },
   {
     title: "Storytelling",
-    description: "I express myself through poetry, art (drawing & painting), and the way I write code.",
+    description: "I express myself through poetry and the way I write code.",
     icon: <BookOpen className="h-6 w-6 text-hope-magenta" />,
-    image: "/public/placeholder.svg",
+    image: "/public/poetry.jpeg",
   },
 ];
 
@@ -89,8 +89,8 @@ const AboutSection = () => {
             <div className="prose max-w-none">
               <h3 className="text-2xl font-serif font-bold text-hope-magenta mb-4">My Story</h3>
               <p className="mb-4 text-muted-foreground">
-                Hi there! I'm Hope, a creative software engineer with a passion for building beautiful, 
-                functional applications that make a difference in people's lives.
+                Hey! I'm Hope but famously known as Starr, a creative software engineer with a passion for building beautiful, 
+                functional applications that put a smile on peoples face.
               </p>
               <p className="mb-4 text-muted-foreground">
                 My journey into tech started when I first discovered the magic of turning lines of code 
@@ -156,11 +156,11 @@ const AboutSection = () => {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start">
                     <span className="mr-2">📝</span>
-                    <span>I journal daily to reflect on my growth and ideas</span>
+                    <span>I journal to reflect on my growth and pour my heart onto the pages</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">🎹</span>
-                    <span>I play piano and compose music in my free time</span>
+                    <span>I play piano and learn new piano songs in my free time</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">📚</span>
