@@ -25,7 +25,7 @@ const timelineItems: TimelineItem[] = [
   {
     year: "2024",
     title: "HyperionDev Coding Bootcamp",
-    description: "Attended an intensive coding bootcamp where I learned foundational programming concepts and built my first real applications.",
+    description: "Attended an intensive coding bootcamp where I learned foundational programming concepts with real-world experience and built my first real applications",
   },
   {
     year: "2023",
@@ -44,37 +44,37 @@ const passions: PassionItem[] = [
     title: "Faith",
     description: "My faith guides my purpose and gives meaning to my work.",
     icon: <span className="text-2xl">✝️</span>,
-    image: "/public/Bible.jpeg",
+    image: "/Bible.jpeg",
   },
   {
     title: "Family",
     description: "My family provides the support system that allows me to pursue my dreams.",
     icon: <Heart className="h-6 w-6 text-hope-magenta" />,
-    image: "/public/Thato.jpeg",
+    image: "/Thato.jpeg",
   },
   {
     title: "Coding",
     description: "I love creating solutions that solve real problems through code.",
     icon: <Code className="h-6 w-6 text-hope-magenta" />,
-    image: "/public/code.jpeg",
+    image: "/code.jpeg",
   },
   {
     title: "Music",
     description: "Playing piano and composing music is how I express myself creatively.",
     icon: <Music className="h-6 w-6 text-hope-magenta" />,
-    image: "/public/music.jpeg",
+    image: "/music.jpeg",
   },
   {
     title: "Creativity",
     description: "I enjoy exploring different forms of creative expression through art and design.",
     icon: <Palette className="h-6 w-6 text-hope-magenta" />,
-    image: "/public/creative.jpeg",
+    image: "/creative.jpeg",
   },
   {
     title: "Storytelling",
     description: "I express myself through poetry and the way I write code.",
     icon: <BookOpen className="h-6 w-6 text-hope-magenta" />,
-    image: "/public/poetry.jpeg",
+    image: "/poetry.jpeg",
   },
 ];
 
@@ -94,11 +94,11 @@ const AboutSection = () => {
               </p>
               <p className="mb-4 text-muted-foreground">
                 My journey into tech started when I first discovered the magic of turning lines of code 
-                into something people could interact with. That moment of creation sparked a love for 
+                into love letters for the browser. That moment of creation sparked a love for 
                 problem-solving and building that continues to drive me today.
               </p>
               <p className="text-muted-foreground">
-                Outside of coding, you'll find me journaling my thoughts, playing piano, exploring 
+                Outside of coding, you'll find me journaling my thoughts, reading The Word, exploring 
                 philosophy, or diving into a good book. I believe that being well-rounded makes me a 
                 better engineer - it helps me approach problems from different angles and create more 
                 human-centered solutions.
@@ -172,7 +172,7 @@ const AboutSection = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">🌱</span>
-                    <span>I'm constantly learning and growing both technically and personally</span>
+                    <span>I'm constantly learning and growing technically, proffesionally and personally</span>
                   </li>
                 </ul>
               </Card>

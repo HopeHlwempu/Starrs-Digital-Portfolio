@@ -20,7 +20,7 @@ const projects: Project[] = [
     id: 1,
     title: "Starr's Online Closet",
     description: "A modern, responsive fashion website designed to showcase stylish products inspired by Instagram fashion trends.",
-    image: "/public/Online Closet.jpg",
+    image: "/Online Closet.jpg",
     github: "https://github.com/HopeHlwempu/Starr-s-Online-Closet",
     demo: "https://hopehlwempu.github.io/Starr-s-Online-Closet/",
     technologies: ["HTML", "Bootstrap", "Tailwind CSS"],
@@ -37,7 +37,7 @@ const projects: Project[] = [
     id: 3,
     title: "My first project",
     description: "A vibrant and creative online portfolio designed to showcase my journey as a software developer, my technical skills, and contact information",
-    image: "/public/Website.jpg",
+    image: "/Website.jpg",
     github: "https://github.com/HopeHlwempu/Starr-s-Vibrant-Webpage",
     demo: "https://hopehlwempu.github.io/Starr-s-Vibrant-Webpage/",
     technologies: ["HTML", "CSS"],
@@ -148,7 +148,7 @@ const ProjectsSection = () => {
             rel="noopener noreferrer"
           >
             <Button variant="outline" className="border-hope-pink hover:bg-hope-pink/10">
-              <Github className="mr-2 h-4 w-4" /> See More on GitHub
+              <Github className="mr-2 h-4 w-4" /> See More on my GitHub
             </Button>
           </a>
         </div>
