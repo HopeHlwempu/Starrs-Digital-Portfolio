@@ -29,7 +29,7 @@ const projects: Project[] = [
     id: 2,
     title: "Nike Inventory Management System",
     description: "A Python-based console application designed to simplify warehouse inventory management. It allows users to efficiently add, update, and retrieve information such as product details, costs, and quantities.",
-    image: "/public/Nike Inventory Management.jpg",
+    image: "/Nike Inventory Management.jpg",
     github: "https://github.com/HopeHlwempu/Nike-Warehouse-OOP",
     technologies: ["Python", "Object Orientation Programming", "SQL"],
   },
