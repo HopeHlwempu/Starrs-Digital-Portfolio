@@ -43,8 +43,8 @@ const timelineItems: TimelineItem[] = [
 const passions: PassionItem[] = [
   {
     title: "People",
-    description: "Understanding people—their needs, dreams, and quirks—is what makes my work meaningful and human-centered",
-    icon: <span className="text-2xl">✝️</span>,
+    description: "Understanding people—their needs, dreams, and quirks - is what makes my work meaningful and human-centered",
+    icon: <Users className="h-6 w-6 text-hope-magenta" />,
     image: "/People.jpg",
   },
   {
