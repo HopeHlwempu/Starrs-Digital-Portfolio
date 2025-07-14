@@ -45,7 +45,7 @@ const passions: PassionItem[] = [
     title: "People",
     description: "Understanding people—their needs, dreams, and quirks—is what makes my work meaningful and human-centered.",
     icon: <Users className="h-6 w-6 text-hope-magenta" />, // updated icon
-    image: "/People.jpeg", // update this to your new image path
+    image: "/People.jpg", // update this to your new image path
   },
   {
     title: "Family",
