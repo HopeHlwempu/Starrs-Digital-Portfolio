@@ -1,7 +1,8 @@
 
 import { cn } from "@/lib/utils";
 import { Card, CardContent } from "@/components/ui/card";
-import { Palette, BookOpen, Music, Code, Heart } from 'lucide-react';
+import { Palette, BookOpen, Music, Code, Heart, Users } from 'lucide-react';
+
 
 type TimelineItem = {
   year: string;
@@ -40,11 +41,11 @@ const timelineItems: TimelineItem[] = [
 ];
 
 const passions: PassionItem[] = [
-  {
-    title: "Faith",
-    description: "My faith guides my purpose and gives meaning to my work.",
-    icon: <span className="text-2xl">✝️</span>,
-    image: "/Bible.jpeg",
+ {
+    title: "People",
+    description: "Understanding people—their needs, dreams, and quirks—is what makes my work meaningful and human-centered.",
+    icon: <Users className="h-6 w-6 text-hope-magenta" />, // updated icon
+    image: "/people.jpeg", // update this to your new image path
   },
   {
     title: "Family",
