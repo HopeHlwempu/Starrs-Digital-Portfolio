@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+# 🌟 Hope’s Digital Portfolio 
 
-## Project info
+*Because showing off your brilliance should be as effortless as hitting `npm start`.*
 
-**URL**: https://lovable.dev/projects/172bb94d-6248-4c23-850e-663ae597d783
+## 🌍 Live Site  
+[✨ Visit Here](https://hope-portfolio-updated.vercel.app/)  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🧩 Table of Contents  
+- [ About Me](#-about-me)  
+- [ Projects & Highlights](#-projects--highlights)  
+- [ Tech Stack](#-tech-stack)  
+- [ Development Setup](#%EF%B8%8F-development-setup)  
+- [ Feedback & Contact](#-feedback--contact)  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/172bb94d-6248-4c23-850e-663ae597d783) and start prompting.
+## About Me  
+Hi there — I’m **Hope** ✨  
+I’m a software engineering student, faith-driven, and passionate about crafting beautiful, functional, and purposeful digital experiences.  
+When I’m not coding, I’m journaling 📝, exploring design 🎨, or deep diving into big ideas 💭.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 💻 Projects & Highlights  
+-  **Contact List App** – Full-stack CRUD app with Flask + React  
+-  **Personal Blog** – A cozy corner for thoughts, art, and scripture  
+-  **UI Experiments** – Playing with animations, layouts, and interactive elements  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+*(See them all on my portfolio site!)*
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠 Tech Stack  
+**Frontend:** ⚛️ React, 🎨 CSS/Tailwind, ⚡ JavaScript  
+**Backend:** 🐍 Python, 🍶 Flask, 🗄 SQLite/PostgreSQL  
+**Tools:** 🛠 Git, 🌐 Vercel, 📦 npm/yarn  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Development Setup  
+```bash
+# Clone the repo
+git clone <YOUR_REPO_URL>
+cd hope-portfolio
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Run locally
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/172bb94d-6248-4c23-850e-663ae597d783) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
